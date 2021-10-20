@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/script.js"></script>
+    <title>Document</title>
+  </head>
+  <body class="page-wrapper">
+    <div class="phone">
+      <div class="display">
+        <div class="display-inner">
+          <div class="menu">
+            <h2 class="menu__ttl">飲み物を選ぶ</h2>
+            <select name="" id="drink" class="menu__list">
+              <option class="menu__item" value="">
+                --- 選択して下さい ---
+              </option>
+            </select>
+            <h2 class="menu__ttl">選択中の飲み物</h2>
+            <div id="confirm" class="menu__confirm"></div>
+          </div>
+          <button id="buy" class="btn">購入する</button>
+        </div>
+      </div>
+    </div>
+    <div class="jihanki">
+      <div class="jihanki-status">
+        <ul id="status" class="jihanki-status__list">
+          <li class="jihanki-status__item"></li>
+          <li class="jihanki-status__item"></li>
+          <li class="jihanki-status__item"></li>
+          <li class="jihanki-status__item"></li>
+        </ul>
+      </div>
+      <div id="videoBox" class="jihanki-monitor">
+        <video
+          src=""
+          autoplay
+          muted
+          playsinline
+          class="jihanki-monitor__video"
+          id="video"
+        ></video>
+      </div>
+    </div>
+  </body>
+</html>
